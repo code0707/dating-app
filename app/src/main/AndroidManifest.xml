@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Lust.tinder">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/love"
+        android:label="Lust - Free Dating App"
+        android:roundIcon="@mipmap/love"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Lust.tinder.Chat.ChatActivity"></activity>
+        <activity android:name="com.Lust.tinder.Matches.MatchesActivity" />
+        <activity android:name="com.Lust.tinder.SettingsActivity" />
+        <activity android:name="com.Lust.tinder.LoginActivity" />
+        <activity android:name="com.Lust.tinder.RegistrationActivity" />
+        <activity android:name="com.Lust.tinder.ChooseLoginRegistrationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Lust.tinder.MainActivity" />
+    </application>
+
+</manifest>

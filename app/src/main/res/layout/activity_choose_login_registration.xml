@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLoginRegistrationActivity"
+    android:orientation="vertical"
+    android:background="@drawable/pg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:text="Your love life starts here!"/>
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#ffffff"
+
+        android:background="@drawable/bg_button_white"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/bg_button_white"
+        android:text="register"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
